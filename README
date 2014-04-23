@@ -1,0 +1,36 @@
+*requires python 3.x*
+Test on python 3.4, 3.3
+
+Fork of floby's crip script.
+Eventually going to add some functionality to pull and organize better.
+
+--------------
+To use:
+
+Log into your schools canvas portal, go to settings, and make an API key. save this key in the same directory as crip.py, name it 'KEY'
+
+ie
+
+cat > KEY
+paste API key here
+ctrl d
+
+Then move the canvaslms dir to python3.3's PATH. 
+
+ie
+
+python
+import sys
+print (sys.path)
+exit()
+
+the canvaslms dir can live in any of the folders shown from the print(sys.path) statement
+
+?????
+edit crip.py to point to your schools canvas portal
+python3.3 crip.py
+
+?????
+
+recieve files
+do homework
